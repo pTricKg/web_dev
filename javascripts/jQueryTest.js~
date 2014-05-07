@@ -1,0 +1,200 @@
+$(document).ready(function() {
+    $('div').mouseenter(function() {
+        $('div').fadeTo('fast',1);
+    });
+    $('div').mouseleave(function() {
+        $('div').fadeTo('fast',0.5);
+    });
+});
+
+// template
+function(input1, input2, etc) {
+    Do a thing
+    Do another thing
+    Do yet another thing!
+}
+
+// another template
+$(document).ready(function() {
+    $(thingToClick).event(function() { //thing will be HTML element manipulated
+        $(thingToAffect).effect();
+    });
+});
+
+// and another template
+$(document).ready(function() {
+    $('SEL').click(function() {
+        $(this).FUNC('CLASS');
+    });
+});
+
+// 
+
+$(document).ready(function() {
+    var $item = $('div ul li ol li');
+    $item.fadeOut('fast');
+});
+
+// click buttion to fade out using CSS class
+$(document).ready(function() {
+    $('button').click(function() {
+        $('.vanish').fadeOut('slow')
+        });
+});
+
+// fading by id
+$(document).ready(function() {
+    $('button').click(function() {
+        $('#blue').fadeOut('slow');
+    });
+});
+
+// sliding drawer
+$(document).ready(function() {
+    $('.pull-me').click(function(){
+    $('.panel').slideToggle('slow');
+    });
+});
+
+// appending paragraph to html doc
+$(document).ready(function () {
+    $("body").append('<p>I\'m a paragraph!</p>');
+});
+
+// inserting 
+$(document).ready(function () {
+    $("#one").after('<p>I\'m a paragraph!</p>');
+});
+
+// removing elements -  empty(0; or remove();
+$(document).ready(function () {
+    $("p").remove();
+});
+
+// adding removing class syntax
+$('selector').addClass('className');
+$('selector').removeClass('className');
+
+// setting height and width
+$("div").height("100px");
+$("div").width("50px");
+
+// change CSS property
+$("div").css("background-color","#008800");
+
+//example
+$(document).ready(function () {
+    $("div").height('200px');
+    $("div").width('200px');
+    $('div').css('border-radius','10px');
+});
+
+// changing html elements
+$('div').html("I love jQuery!");
+
+// get value of elements
+$('input:checkbox:checked').val();
+
+// adding list from field input
+$(document).ready(function () {
+   $('#button').click(function(){
+   var toAdd = $('input[name=checkListItem]').val(); // adds items to list
+   $('.list').append( '<div class="item">' + toAdd + '</div>');
+   });
+   $(document).on('click', '.item', function() {
+    $(this).remove(); // removes list items by clicking text
+});
+});
+var variable = $('input[name=fieldName]').val();
+
+// adding hover event to change 
+$(document).ready(function() {
+    $('div').click(function() {
+        $(this).fadeOut('fast');
+    });
+    $('div').hover(function() {
+    $(this).addClass('red');// adds event to og class
+    })
+});
+
+// mouse enter and leave event handling
+$(document).ready(function() {
+    $('div').mouseenter(function() {
+        $(this).fadeTo('fast',1);
+    });
+    $('div').mouseleave(function() {
+    $(this).fadeTo('fast',0.25);// 'this' adds event to og class
+    })
+});
+
+// focus events - useful highlight for text input areas
+$(document).ready(function() {
+    $('input').focus(function() {
+        $(this).css('outline-color','#FF0000');
+    });
+});
+
+// animation template
+$(document).ready(function() {
+   $('div').animate({left:'+=10px'},500);
+});
+
+$(document).ready(function() {
+    $(this).keydown(function() {
+    $('div').animate({left:'+=10px'},500);
+    });
+})
+
+// animating sprite
+$(document).ready(function() {
+    $(document).keydown(function(key) {
+        switch(parseInt(key.which,10)) {
+			case 65:
+				$('img').animate({left: "-=10px"}, 'fast');// move with key a
+				break;
+			case 83:
+				$('img').animate({top: "+=10px"}, 'fast');// moves with key
+				break;
+			case 87:
+				$('img').animate({top: "-=10px"}, 'fast');
+				break;
+			case 68:
+				$('img').animate({left: "+=10px"}, 'fast');
+				break;
+			default:
+				break;
+		}
+	});
+});
+
+// using JQuery UI effects
+
+// first need this in body
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+// then the code the explode
+$(document).ready(function() {
+    $('div').click(function() {
+    $('div').effect('explode');
+    });
+});
+
+// bounce
+$(document).ready(function() {
+    $('div').click(function() {
+    $('div').effect('bounce',{times:2}, 200);
+    });
+});
+
+// dragging element
+$(document).ready(function() {
+    $('#car').draggable();
+    
+});
+
+//this is cool menu accordion effect
+$(document).ready(function() {
+    $('#menu').accordion();
+});
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Lafayette Historic Properties</title>
+<!-- TemplateEndEditable -->
+<link href="/stylesheets/lafayettestyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<link href="/stylesheets/lafayettestyle.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body class="body">
+
+  
+    
+       <div align="center">
+         <table width="1050" border="1">
+           <tr>
+             <th scope="col"><span class="header"><a href="/images/lafayette/front_range.jpg"><img src="/images/lafayette/front_range.jpg" alt="front range" width="1039" height="162" align="middle" class="header" /></a></span></th>
+           </tr>
+           <tr>
+             <td class="header"><div align="center" class="header"><!-- TemplateBeginEditable name="heading" -->Lafayette High School<!-- TemplateEndEditable --></div></td>
+           </tr>
+           <tr>
+             <td>  <div align="center">
+               <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+                 <option value="http://www.colorado.edu/geography/cartpro/cartography2/fall2009/gorman/project/laf_historic_properties/maxwell_house.html">Home</option>
+                 <option value="http://www.cityoflafayette.com">City of Lafayette Website</option>
+                 <option value="http://www.colorado.edu/geography/cartpro/cartography2/fall2009/gorman/projects/lafayette_history">A Brief History of Lafayette</option>
+               </select>
+             </div>               <div align="center"></div></td>
+           </tr>
+         </table>
+       </div>
+<table border="1" cellspacing="0" cellpadding="0">
+         <tr>
+           <td width="448" valign="top"><p><img src="laf_page_3_clip_image002_0000.jpg" alt="laf_high" width="414" height="323" /></p></td>
+           <td width="401" valign="top"><!-- TemplateBeginEditable name="body" -->
+             <p><strong>&nbsp;</strong></p>
+             <p><strong>Lafayette</strong><strong> High School</strong><strong> </strong><br />
+               101 E.      Baseline Road</p>
+             <p>Built1925 <br />
+               5BL.10401<br />
+               Local Register 12/09/2008</p>
+           <!-- TemplateEndEditable --></td>
+         </tr>
+         <tr>
+           <td width="448" valign="top"><p><img src="laf_page_3_clip_image004_0000.jpg" alt="laf_high_2" width="414" height="277" /></p></td>
+           <td width="401" valign="top"><p>    Two portions of    the former Lafayette High School building have been landmarked – the original    portion built in 1925 (representative of the Classical Revival style applied    to high school buildings in Colorado in the 1920-30s), and the western-most    gymnasium built in 1952 with is barrel roof. Prominent Colorado architect Robert K. Fuller    designed the original school. <br />
+             The original    1925 building still retains the same roof form, exterior materials, window    and entrance embellishments and dentiled cornice, but its integrity has been    impacted by seven additions. It is the oldest school in the city and the    building’s evolution from high school to middle school to grade school    reflects the community’s growth and expansion during the 20th    century and into the 21st century.</p></td>
+         </tr>
+</table>
+<p class="body">&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Mapping Utah Avalanches</title>
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="../jquery-1.9.1.js"></script>
+<script type="text/javascript" src="../testing_new.js"></script>
+<script type="text/javascript" src="../jquery-ui.js"></script>
+
+<link href="../projects/utahavalanches/stylesheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+<!-- TemplateBeginEditable name="menu" -->
+
+<body class="background">
+
+	<center>
+        <a href="../projects/utahavalanches/maps.html"><img src="../images/icons/previous.png" alt="previous" /></a>
+	</center>
+<!-- TemplateEndEditable -->
+
+
+<table width="900" border="1" align="center"bgcolor="#9f9da0" >
+  <tr>
+  <!-- TemplateBeginEditable name="body" -->
+  	<h1 id="title" align="center">Mapping Utah Avalanches</h1>
+    <td height="461" align="center" class="updatetext" ></td>
+  <!-- TemplateEndEditable -->
+  </tr>
+</table>
+
+
+<table width="900" border="1" align="center" bgcolor="#9f9da0">
+  <tr>
+    <td>
+    <!-- TemplateBeginEditable name="footer" -->
+    <div align="center" class="updatetext">Page Created by Patrick Gorman, Last Updated 1.1.14</div>
+    <!-- TemplateEndEditable -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+

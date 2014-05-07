@@ -1,0 +1,20 @@
+.body {
+	background-color: #000;
+}
+
+.text {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #00F;
+}
+.header {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 36px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #FFF;
+	background-image: none;
+	border: thin solid #00F;
+	text-transform: capitalize;
+	background-color: #03C;
+}

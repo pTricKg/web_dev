@@ -1,0 +1,33 @@
+.layout {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	background-image: url(/projects/arches_virtualfieldtrip/arches_images/arches_background.jpg);
+	background-repeat: repeat;
+}
+
+.body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #F3EBE3;
+	background-color: #AF7A5B;
+}
+.title {
+	color: #F3EBE3;
+}
+
+.link_heading {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #B2D9F8;
+	text-align: center;
+}
+.text {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #F3EBE3;
+	font-weight: normal;
+	text-align: center;
+}
+.introlink {
+	color: #B2D9F8;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+div  {
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	margin-left: 100px;
+}

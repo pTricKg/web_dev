@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Lafayette Historic Properties</title>
+<!-- TemplateEndEditable -->
+<link href="/stylesheets/lafayettestyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<link href="/stylesheets/lafayettestyle.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body class="body">
+
+  
+    
+       <div align="center">
+         <table width="1050" border="1">
+           <tr>
+             <th scope="col"><span class="header"><a href="/images/lafayette/front_range.jpg"><img src="/images/lafayette/front_range.jpg" alt="front range" width="1039" height="162" align="middle" class="header" /></a></span></th>
+           </tr>
+           <tr>
+             <td class="header"><div align="center" class="header">Weiler House</div></td>
+           </tr>
+           <tr>
+             <td>  <div align="center">
+               <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+                 <option value="http://www.colorado.edu/geography/cartpro/cartography2/fall2009/gorman/project/laf_historic_properties/maxwell_house.html">Home</option>
+                 <option value="http://www.cityoflafayette.com">City of Lafayette Website</option>
+                 <option value="http://www.colorado.edu/geography/cartpro/cartography2/fall2009/gorman/projects/lafayette_history">A Brief History of Lafayette</option>
+               </select>
+             </div>               <div align="center"></div></td>
+           </tr>
+         </table>
+       </div>
+<table border="1" cellspacing="0" cellpadding="0">
+         <tr>
+           <td width="448" valign="top"><p>SD - No ‘then’ photo</p></td>
+           <td width="401" valign="top"><p><strong>&nbsp;</strong></p>
+             <p><strong>Weiler House</strong><br />
+               401 E.      Baseline Road</p>
+             <p>Built 1900 <br />
+               5BL.8858<br />
+               Local Register 06/27/2000</p></td>
+         </tr>
+         <tr>
+           <td width="448" valign="top"><p><img src="../../Templates/laf_page_3_clip_image002_0001.jpg" alt="Weiler House" width="430" height="322" /></p></td>
+           <td width="401" valign="top"><p>    The Weiler House    was built in 1900, but it is unclear due to lack of accurate records who    actually owned the house until 1923. Jacob Weiler purchased the house in 1923    and occupied it with his wife Lillie and their eight children. Jacob Weiler    worked for the mines over the years as a pump man, fire boss and foreman. The    house is somewhat larger than what we think of as a &quot;miner's house&quot;    and is the cornerstone of the First Union Neighborhood. The young miners    would often come by the house to pick up their work schedules, where they    would socialize with Mr. Weiler's four teenage daughters.<br />
+             In 1940, the    house was furnished with indoor plumbing, installed in a room on the back    porch. The one story structure is two rooms wide, three deep, including a    living room, two bedrooms, dining room, kitchen and a sunroom on the east    side, called the &quot;sleeping porch&quot; by the Weiler children. The    Weiler House was placed on the Lafayette Register of Historic Properties in    2000.</p></td>
+         </tr>
+</table>
+<p class="body">&nbsp;</p>
+</body>
+</html>

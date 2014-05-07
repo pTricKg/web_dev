@@ -1,0 +1,25 @@
+/*blackJack.js*/
+
+console.log("I'm ready to build a blackjack game!");
+
+//variable for random number generation
+var randomRating = Math.random() * 10;
+
+
+console.log(randomRating);
+
+//function to deal 2 cards
+function twoRandomScores() {
+    var score1 = Math.random() * 10;
+    var score2 = Math.random() * 10;
+    
+    return score1 + score2;
+}
+
+twoRandomScores();
+
+//communication score to user
+var randomScore = Math.random() * 52;
+
+console.log("I got the score " + randomScore.toFixed(0));
+//toFixed will print non-float numbers
