@@ -1,45 +1,60 @@
-
+#header-image {
+    background-image: url(../../images/simple_ptrickg_title.png);
+	height: auto;
+	width: auto;
+	display: inline-block;
+	margin-top: 5px;
+}
 #box1 {
 	height: 100px;
-    width: 100px;
-    background-color: #FA6900;
-    border-radius: 5px;
+	width: 100px;
+	background-color: #FA6900;
+	border-radius: 5px;
 	display: inline-block;
-		
+	margin-top: 5px;
 }
-
 #box2 {
 	height: 100px;
-    width: 100px;
-    background-color:#03C;
-    border-radius: 5px;
+	width: 100px;
+	background-color:#03C;
+	border-radius: 5px;
 	display: inline-block;
-		
+	margin-top: 5px;
 }
-
 #box3 {
 	height: 100px;
-    width: 100px;
-    background-color: #FF3;
-    border-radius: 5px;
+	width: 100px;
+	background-color: #FF3;
+	border-radius: 5px;
 	display: inline-block;
-		
+	margin-top: 5px;
 }
-
 #box4 {
 	height: 100px;
-    width: 100px;
-    background-color:#F00;
-    border-radius: 5px;
+	width: 100px;
+	background-color:#F00;
+	border-radius: 5px;
 	display: inline-block;
-		
+	margin-top: 5px;
 }
-	
 #box5 {
 	height: 100px;
-    width: 100px;
-    background-color:#0C0;
-    border-radius: 5px;
+	width: 100px;
+	background-color:#0C0;
+	border-radius: 5px;
 	display: inline-block;
-		
+	margin-top: 5px;
+}
+.header {
+	background-color: #333;
+	height: 75px;
+	width: auto;
+	border-radius: 5px;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url(/images/tuxBG.jpg);
+	background-attachment:fixed;
 }
