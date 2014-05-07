@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	/*$("#box1").mouseenter(function() {
+	$("#box1").mouseenter(function() {
   		$(this).animate({height: "100px", width: "100px", position: 'relative'});
 		});
 	$("#box1").mouseleave(function() {
@@ -43,13 +43,13 @@ $(document).ready(function() {
 	});
 	$("#box5").click(function() {
 			$(this).effect("bounce", "slow");
-	});*/
+	});
 		
 		
-	$('div').hover(function() {
+	/*$('div').hover(function() {
 			$(this).effect("bounce","fast");
 		});*/
-
+/*
     $('div').mouseenter(function() {
 		$(this).fadeTo(function() {
     	$(this).width(200);
@@ -59,6 +59,6 @@ $(document).ready(function() {
     	$(this).fadeTo(function() {
 			$(this).width(100);
 		});
-	}); 
+	}); */
 	
 });
