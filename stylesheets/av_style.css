@@ -1,7 +1,7 @@
-<!--classes-->
+
 .background {
-	background-image: url(/images/avalancheimages/snowbackground.jpg);
-	text-align: center;
+	background-image: url(../images/avalancheimages/snowbackground.jpg);
+	
 }
 .head {
 	font-family:Arial, Helvetica, sans-serif;
@@ -16,7 +16,7 @@
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 16px;
 }
-<!--ids-->
+
 #box1 {
 	height: inherit;
     width: inherit;
