@@ -1,55 +1,24 @@
-
-#box1 {
-	height: 100px;
-    width: 100px;
-    background-color: #FA6900;
-    border-radius: 5px;
-	display: inline-block;
-		
+<!--classes-->
+.one{
+	position: relative;
+	display:: inline-block;
 }
-
-#box2 {
-	height: 100px;
-    width: 100px;
-    background-color:#03C;
-    border-radius: 5px;
-	display: inline-block;
-		
+.two{
+	position: relative;
+	display:: inline-block;
 }
-
-#box3 {
-	height: 100px;
-    width: 100px;
-    background-color: #FF3;
-    border-radius: 5px;
-	display: inline-block;
-		
+.three{
+	position: relative;
+	display:: inline-block;
 }
-
-#box4 {
-	height: 100px;
-    width: 100px;
-    background-color:#F00;
-    border-radius: 5px;
-	display: inline-block;
-		
+.four{
+	position: relative;
+	display:: inline-block;
 }
-	
-#box5 {
-	height: 100px;
-    width: 100px;
-    background-color:#0C0;
-    border-radius: 5px;
-	display: inline-block;
-		
+.five{
+	position: relative;
+	display:: inline-block;
 }
-
-#title {
-	text-align:center;
-	font-family:Arial, Helvetica, sans-serif;
-	letter-spacing: 0.5em;
-}
-
 .background {
 	background-image: url(../../images/avalancheimages/snowbackground.jpg);
 	text-align: center;
@@ -67,3 +36,50 @@
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 16px;
 }
+<!--ids-->
+#box1 {
+	height: inherit;
+    width: inherit;
+    border-radius: 5px;
+	display: inline-block;
+		
+}
+
+#box2 {
+	height: inherit;
+    width: inherit;
+    border-radius: 5px;
+	display: inline-block;
+		
+}
+
+#box3 {
+	height: inherit;
+    width: inherit;
+    border-radius: 5px;
+	display: inline-block;
+		
+}
+
+#box4 {
+	height: inherit;
+    width: inherit;
+    border-radius: 5px;
+	display: inline-block;
+		
+}
+	
+#box5 {
+	height: inherit;
+    width: inherit;
+    border-radius: 5px;
+	display: inline-block;
+		
+}
+
+#title {
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing: 0.5em;
+}
+

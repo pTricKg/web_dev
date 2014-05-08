@@ -6,7 +6,8 @@ $(document).ready(function() {
   		$(this).animate({height: "57px", width: "57px", position: 'relative'});
 	});
 	$("#icon1").click(function() {
-			$(this).effect("bounce", "slow");
+			$(this).effect("clip");
+			$(this).removeAttr( "style" ).hide().fadeIn();
 	});
 	$("#icon2").mouseenter(function() {
   		$(this).animate({height: "100px", width: "100px", position: 'relative'});
@@ -15,7 +16,8 @@ $(document).ready(function() {
   		$(this).animate({height: "57px", width: "57px", position: 'relative'});
 	});
 	$("#icon2").click(function() {
-			$(this).effect("bounce", "slow");
+			$(this).effect("clip");
+			$(this).removeAttr( "style" ).hide().fadeIn();
 	});
 	$("#icon3").mouseenter(function() {
   		$(this).animate({height: "100px", width: "100px", position: 'relative'});
@@ -24,7 +26,8 @@ $(document).ready(function() {
   		$(this).animate({height: "57px", width: "57px", position: 'relative'});
 	});
 	$("#icon3").click(function() {
-			$(this).effect("bounce", "slow");
+			$(this).effect("clip");
+			$(this).removeAttr( "style" ).hide().fadeIn();
 	});
 	$("#icon4").mouseenter(function() {
   		$(this).animate({height: "100px", width: "100px", position: 'relative'});
@@ -33,7 +36,8 @@ $(document).ready(function() {
   		$(this).animate({height: "57px", width: "57px", position: 'relative'});
 	});
 	$("#icon4").click(function() {
-			$(this).effect("bounce", "slow");
+			$(this).effect("clip");
+			$(this).removeAttr( "style" ).hide().fadeIn();
 	});
 	$("#icon5").mouseenter(function() {
   		$(this).animate({height: "100px", width: "100px", position: 'relative'});
@@ -42,23 +46,7 @@ $(document).ready(function() {
   		$(this).animate({height: "57px", width: "57px", position: 'relative'});
 	});
 	$("#icon5").click(function() {
-			$(this).effect("bounce", "slow");
+			$(this).effect("clip");
+			$(this).removeAttr( "style" ).hide().fadeIn();
 	});
-		
-		
-	/*$('div').hover(function() {
-			$(this).effect("bounce","fast");
-		});*/
-/*
-    $('div').mouseenter(function() {
-		$(this).fadeTo(function() {
-    	$(this).width(200);
-		});
-	});
-	$('div').mouseleave(function() {
-    	$(this).fadeTo(function() {
-			$(this).width(100);
-		});
-	}); */
-	
 });
