@@ -1,24 +1,4 @@
 <!--classes-->
-.one{
-	position: relative;
-	display:: inline-block;
-}
-.two{
-	position: relative;
-	display:: inline-block;
-}
-.three{
-	position: relative;
-	display:: inline-block;
-}
-.four{
-	position: relative;
-	display:: inline-block;
-}
-.five{
-	position: relative;
-	display:: inline-block;
-}
 .background {
 	background-image: url(../../images/avalancheimages/snowbackground.jpg);
 	text-align: center;
