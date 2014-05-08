@@ -6,9 +6,10 @@
 <title>Mapping Utah Avalanches</title>
 <!-- TemplateEndEditable -->
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
-<script type="text/javascript" src="../../javascripts/av_script.js"></script>
+<script type="text/javascript" src="../javascripts/av_script.js"></script>
 <script type="text/javascript" src="../jquery-ui.js"></script>
-<link href="../projects/utahavalanches/stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../stylesheets/av_style.css" rel="stylesheet" type="text/css"/>
+<!--Shoot!! Again! -->
 </head>
 <body class="background">
 <center>
