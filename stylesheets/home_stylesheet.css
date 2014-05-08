@@ -1,9 +1,10 @@
+
 #header-image {
 	height: 50px;
 	width: auto;
 	display: inline-block;
 	margin-top: 5px;
-}
+	}
 #pic {
 	margin-left: 5px;
 	margin-top: 5px;
@@ -16,6 +17,7 @@
 	border-radius: 5px;
 	display: inline-block;
 	margin-top: 5px;
+	
 }
 #box2 {
 	height: 100px;
@@ -24,6 +26,7 @@
 	border-radius: 5px;
 	display: inline-block;
 	margin-top: 5px;
+	
 }
 #box3 {
 	height: 100px;
@@ -32,6 +35,7 @@
 	border-radius: 5px;
 	display: inline-block;
 	margin-top: 5px;
+	
 }
 #box4 {
 	height: 100px;
@@ -48,6 +52,7 @@
 	border-radius: 5px;
 	display: inline-block;
 	margin-top: 5px;
+	
 }
 .header {
 	background-color: #333;
