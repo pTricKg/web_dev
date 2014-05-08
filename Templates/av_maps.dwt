@@ -9,7 +9,6 @@
 <script type="text/javascript" src="../jquery-ui.js"></script>
 <script type="text/javascript" src="../javascripts/av_script.js"></script>
 
-
 <link href="../stylesheets/av_style.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -37,7 +36,7 @@
   <tr>
     <td>
     <!-- TemplateBeginEditable name="footer" -->
-    <div align="center" class="updatetext">Page Created by Patrick Gorman, Last Updated 1.1.14</div>
+    <div align="center" class="updatetext">Page Created by Patrick Gorman, Last Updated 05.08.14</div>
     <!-- TemplateEndEditable -->
     </td>
   </tr>
