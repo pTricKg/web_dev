@@ -1,19 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/avalanche.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- InstanceBegin template="/Templates/av_maps.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Maps</title>
+<title>Mapping Utah Avalanches</title>
 <link href="highslide/highslide-full.js" rel="stylesheet" type="text/css" />
 <link href="highslide/highslide.js" rel="stylesheet" type="text/css" />
 <link href="../highslide/highslide.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../utahavalanches/highslide/highslide-full.js"></script>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	hs.graphicsDir = 'highslide/graphics/';
 	hs.outlineType = 'rounded-white';
 	hs.fadeInOut = true;
 	hs.headingEval = 'this.a.title';
-	hs.minWidth = 920; // Set the width of your popup window here. Add 20px to avoid having scroll bars.
+	hs.minWidth = 750; // Set the width of your popup window here. Add 20px to avoid having scroll bars.
 	//hs.dimmingOpacity = 0.75;
 </script>
 <script type="text/javascript">
@@ -37,8 +39,7 @@ if (nodyn) { event = "nope" }
 // Do you want tip to move when mouse moves over link?
 var tipFollowMouse= true;	
 // Be sure to set tipWidth wide enough for widest image
-var tipWidth= 920;
-var tipHeight=950;
+var tipWidth= 750;
 var offX= 20;	// how far from mouse to show tip
 var offY= 12; 
 var tipFontFamily= "Verdana, arial, helvetica, sans-serif";
@@ -58,7 +59,7 @@ var messages = new Array();
 // multi-dimensional arrays containing: 
 // image and text for tooltip
 // optional: bgColor and color to be sent to tooltip
-messages[0] = new Array('','',"#FFFFFF");
+messages[0] = new Array('../../images/avalancheimages/av_path_locatorzoom.jpg','',"#FFFFFF");
 messages[1] = new Array('','Here is a duck on a light blue background.',"#DDECFF");
 messages[2] = new Array('test.gif','Test description','black','white');
 // Fill in the array with the images you will use. In the link (href) of your photo, change the (event,#) so it corresponds to the correct image. For example, Messages[0] in the array corresponds to (event,0).
@@ -151,8 +152,8 @@ function positionTip(evt) {
 	// check mouse position against tip and window dimensions
 	// and position the tooltip 
 	if ((mouseX+offX+tpWd)>winWd) 
-		tipcss.left = mouseX-(tpWd+offX)+"px";
-	else tipcss.left = mouseX+offX+"px";
+		tipcss.center = mouseX-(tpWd+offX)+"px";
+	else tipcss.center = mouseX+offX+"px";
 	if ((mouseY+offY+tpHt)>winHt) 
 		tipcss.top = winHt-(tpHt+offY)+"px";
 	else tipcss.top = mouseY+offY+"px";
@@ -170,69 +171,40 @@ document.write('<div id="tipDiv" style="position:absolute; visibility:hidden; z-
 </script>
 <!-- InstanceEndEditable -->
 <script type="text/javascript" src="../../jquery-1.9.1.js"></script>
-<script type="text/javascript" src="../../javascripts/av_script.js"></script>
+<script type="text/javascript" src="../../testing_new.js"></script>
 <script type="text/javascript" src="../../jquery-ui.js"></script>
-<link href="../../stylesheets/av_style.css" rel="stylesheet" type="text/css"/>
-
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<!-- InstanceEndEditable -->
+<script type="text/javascript" src="../../jquery-1.9.1.js"></script>
+<script type="text/javascript" src="../../testing_new.js"></script>
+<script type="text/javascript" src="../../jquery-ui.js"></script>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
+<!-- InstanceBeginEditable name="menu" -->
+
 <body class="background">
-<center>
-  <table width="900" align="center" >
-    <tr>
-      <td align="center">
-	  <!-- InstanceBeginEditable name="icon_home" --> <a href="homepage.html"><img id="icon1" src="../../images/icons/home.png" alt="home" /></a> <!-- InstanceEndEditable --> 
-            	<a href="maps.html"><img id="icon2" src="../../images/icons/map.png" alt="maps" /></a>
-                <a href="science.html"><img id="icon3" src="../../images/icons/science.png" alt="science" /></a>
-                <a href="av_links.html"><img id="icon4" src="../../images/icons/links.png" alt="links" /></a>
-	  <!-- InstanceBeginEditable name="icon" --> <a href="science.html"><img id="icon5" src="../../images/icons/next.png" alt="next" /></a> <!-- InstanceEndEditable -->
-        <h1 id="title" align="center">Mapping Utah Avalanches</h1>
-      </td>
-    </tr>
-  </table>
-</center>
+</body>
+<!-- InstanceEndEditable -->
 <table width="900" border="1" align="center"bgcolor="#9f9da0" >
-  <tr> 
-  <!-- InstanceBeginEditable name="body" -->
-    <td height="461" align="center" class="updatetext" ><p align="center" class="navtext">Please click on the following maps for larger images and more information:</p>
-      <p align="center" class="updatetext">The area of study is reserved to the Wasatch range to the southeast of Salt Lake City, Utah. The other data I was planning on using for this study is unavailable for public dissemination. And due to time restraints, I will not be able to analyze this data as thoroughly as I would have liked to or was planning on. I will update as time permits.</p>
-      <p align="center" class="updatetext">Study Area Locator Map</p>
-      <p align="center" class="updatetext"><img src="../../images/avalancheimages/av_path_locatorzoomthmb.jpg" alt="Study Area Locator Image Thumb" width="250" height="195" border="0" usemap="#Map5" /></p>
-      <p align="center" class="updatetext">This map is showing avalanche path data with graduated circles per sq. ft. of area.</p>
-      <p align="center" class="updatetext"><img src="../../images/avalancheimages/av_by_area_gradsymthmb.jpg" alt="graduated symbol map" width="250" height="203" border="0" usemap="#Map" /> </p>
-      <p align="center" class="updatetext">This map is showing path data by length with proportional symbols and those symbols are excluding return intervals of less than frequent.</p>
-      <p align="center" class="updatetext"><img src="../../images/avalancheimages/av_by_area_normbyfreqthmb.jpg" alt="thumb image of same mountains but mapped by frequency" width="250" height="203" border="0" usemap="#Map2" /></p>
-      <p align="center">This map is showing path length data by proportinal symbols.</p>
-      <img src="../../images/avalancheimages/av_by_length_propsymthmb.jpg" alt="proportional symbol map" width="250" height="203" border="0" usemap="#Map3" />
-      </p>
-      <p align="center">This is a map showing path length data with graduated symbols.
-      
-      <p align="center"> <img src="../../images/avalancheimages/av_by_length_gradsymthmb.jpg" alt="map of length by graduated symbol" width="250" height="202" border="0" usemap="#Map4" /> </p></td>
-    <p>
-      <map name="Map2" id="Map2">
-        <area shape="rect" title="Study Area Locator" coords="96,285,238,313" href="photos/chillan 1.jpg" onclick="return hs.expand(this)" />
-        <area shape="rect" coords="-1,-1,249,201" href="map2.html" alt="Click to load map 2" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )" />
-      </map>
-      <map name="Map3" id="Map3">
-        <area shape="rect" coords="-1,0,252,202" href="map3.html" alt="Click to load map 3" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )" />
-      </map>
-      <map name="Map4" id="Map4">
-        <area shape="rect" coords="0,1,250,201" href="map4.html" alt="Click to load map 4" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )" />
-      </map>
-      <map name="Map" id="Map">
-        <area shape="rect" coords="0,0,249,202" href="map1.html" alt="Click to load map 1" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )" />
-      </map>
-      <map name="Map5" id="Map5">
-        <area shape="rect" coords="1,1,249,195" href="studyarealocator.html" alt="Click to load Study Area Locator Map" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )" />
-      </map>
-    <!-- InstanceEndEditable --> 
+  <tr>
+    <!-- InstanceBeginEditable name="body" -->
+    <td height="461" align="center" class="updatetext" ><p align="center" class="navtext">Study Area Locator Map</p>
+      <p align="center" class="updatetext">Please Click Inside Red Study Area Marker Square To See Detailed View Of Study Area</p>
+      <p align="center" class="updatetext"><img src="../../images/avalancheimages/utahcropped.jpg" alt="Study Area Locator" width="486" height="596" border="0" usemap="#Map" /></p></td>
+    <!-- InstanceEndEditable -->
   </tr>
 </table>
 <table width="900" border="1" align="center" bgcolor="#9f9da0">
   <tr>
-    <td>
-    	<div align="center" class="updatetext">Page Created by Patrick Gorman, Last Updated 05.08.14</div>
-    </td>
+    <td><!-- InstanceBeginEditable name="footer" -->
+      <div align="center" class="updatetext">Page Created by Patrick Gorman, Last Updated 1.1.14</div>
+      <!-- InstanceEndEditable --></td>
   </tr>
 </table>
+
 </body>
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+<map name="Map" id="Map">
+  <area shape="rect" coords="205,160,243,193" href="../../images/avalancheimages/av_path_locatorzoom.jpg" alt="Detailed Study Locator Map"   onclick="return hs.expand(this)" />
+</map>
+</html>
