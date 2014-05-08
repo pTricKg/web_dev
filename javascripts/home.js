@@ -1,4 +1,13 @@
 $(document).ready(function() {
+	/*$('div').mouseenter(function() {
+  		$(this).animate({height: "100px", width: "100px", position: 'relative'});
+		});
+	$('div').mouseleave(function() {
+  		$(this).animate({height: "57px", width: "57px", position: 'relative'});
+	});
+	$('div').click(function() {
+			$(this).effect("bounce", "slow");
+	});*/
 	$("#box1").mouseenter(function() {
   		$(this).animate({height: "100px", width: "100px", position: 'relative'});
 		});
