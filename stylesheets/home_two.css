@@ -1,38 +1,45 @@
-.heading {
-	
-}
-
-.container {
-	
+.header {
+	background-color: #333;
+	height: 75px;
+	width: auto;
+	margin-right: 15px;
+	border-radius: 5px;
 	}
-
+	
+.container {
+	width: auto;
+}
 
 .nav {
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
+	
+	
 	display: inline-block;
-	clear: both;
 	
+	}
 	
-	
-}
 #name {
 	height: 50px;
 	width: auto;
-	display: inline;
 	margin-top: 5px;
 	float: right;
-		
+	clear: left;
+	
+	
 	}
 #pic {
 	margin-left: 5px;
 	margin-top: 5px;
 	padding-right: 50px;
-	float: left;
 	
-	
+	}
+
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/tuxBG.jpg);
+	background-attachment:fixed;
 }
+
 #box1 {
 	height: 100px;
 	width: 100px;
@@ -76,17 +83,4 @@
 	display: inline-block;
 	margin-top: 5px;
 	
-}
-.header {
-	background-color: #333;
-	height: 75px;
-	width: auto;
-	border-radius: 5px;
-}
-
-.background {
-	width: 100%;
-	height: 100%;
-	background-image: url(../images/tuxBG.jpg);
-	background-attachment:fixed;
 }
