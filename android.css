@@ -29,6 +29,7 @@
 .jumbotron {
   background-image:url('http://www.f-covers.com/cover/android-cool-facebook-cover-timeline-banner-for-fb.jpg');
   height: 300px;
+  width: auto;
 }
 
 .jumbotron .container {
@@ -46,6 +47,7 @@
 .jumbotron p {
   font-size: 20px;
   color: #004;
+  top: 90px;
 }
 
 .learn-more {
