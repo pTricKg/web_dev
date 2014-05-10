@@ -1,18 +1,3 @@
-.beneath-header {
-    background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
-}
-
-.beneath-header  h2 {
-    color: #393c3d;
-    font-size: 24px;
-}
-
-.beneath-header  p {
-    font-size: 15px;
-    margin-bottom: 13px;
-}
-
 
 .nav a {
   color: #5a5a5a;
@@ -21,62 +6,54 @@
   padding: 14px 10px;
   text-transform: uppercase;
 }
-
 .nav li {
   display: inline;
 }
+.beneath-banner {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+.beneath-banner h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+.beneath-banner p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #CCC;
+ }
+.info a {
+  color: #fff;
+}
+.info {
+	background-color: #999;
+}
 
-.header {
-  background-image:url('http://www.f-covers.com/cover/android-cool-facebook-cover-timeline-banner-for-fb.jpg');
-  height: 300px;
+.page {
+	background-color: #999;
+}
+.banner {
+  background-image: url(../images/android_banner.jpg);
+  height: 180px;
   width: auto;
 }
-
-.header .container {
-  position: relative;
-  
+.banner .container {
+	position: relative;
 }
-
-.header h1 {
+.banner h1 {
   color: #fff;
   font-size: 48px;  
   font-weight: bold;
   margin-right: auto;
   margin-bottom: auto;
 }
-
-.header p {
+.banner p {
   font-size: 20px;
   color: #CCC;
   float: right;
-  margin-left: auto;
-}
-.header .link {
-	padding-top: 300px;
-}
-
-.info {
-  background-color: #f7f7f7;
-}
-
-.info h3 {
-  font-size: 18px;
-  font-weight: bold;
-  color: #CCC;
-  
-}
-
-.info a {
-  color: #fff;
-}
-
-.page {
-	
-	background-color: #999;
-}
-
-.page .info {
-	
-	background-color: #999;
 }
 
