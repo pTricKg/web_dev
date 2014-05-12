@@ -30,13 +30,13 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
          <tr>
            <td colspan="3">  <div align="center">
              <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,1)">
-               <option value="../projects/laf_historic_properties/historic_sites_of _lafayette_front_page.html">Home</option>
-               <option value="../projects/laf_historic_properties/lafayette_historic_properties.html">Back To Map</option>
+               <option value="../projects/projects/laf_historic_properties/historic_sites_of _lafayette_front_page.html">Home</option>
+               <option value="../projects/projects/laf_historic_properties/lafayette_historic_properties.html">Back To Map</option>
                <option value="http://www.cityoflafayette.com" selected="selected">City of Lafayette Website</option>
                <option value="/projects/laf_historic_properties/sub_pages/brief_history.html">A Brief History of Lafayette</option>
                <option value="http://www.cityoflafayette.com/flash/flashmap/map.html">Lafayette Interactive Walking Tour</option>
                <option value="/images/lafayette/coal_mines_of_lafayette.gif">Lafayette Historical Coal Mines</option>
-               <option value="../projects/gorman_projects.html">Back To My Projects Page</option>
+               <option value="../projects/projects/gorman_projects.html">Back To My Projects Page</option>
              </select>
            </div>               <div align="center"></div></td>
          </tr>
@@ -54,7 +54,7 @@ The house is an    excellent example of the gabled frame type of building that p
            <td width="215">&nbsp;</td>
          </tr>
          <tr>
-           <td colspan="3"><img src="../images/lafayette/knill_green_house_clip_image002.jpg" alt="knill_green_then" width="438" height="269" /><img src="../images/lafayette/knill_green_house_clip_image004.jpg" alt="knill_green_now" width="437" height="273" /></td>
+           <td colspan="3"><img src="../projects/images/lafayette/knill_green_house_clip_image002.jpg" alt="knill_green_then" width="438" height="269" /><img src="../projects/images/lafayette/knill_green_house_clip_image004.jpg" alt="knill_green_now" width="437" height="273" /></td>
          </tr>
          <tr>
            <td colspan="3"><div align="center"><span class="text">Created and Updated by Patrick Gorman. Last Update: 10/19/09</span></div></td>
