@@ -87,7 +87,7 @@
 .background {
 	width: 100%;
 	height: 100%;
-	background-image: url(../images/tuxBG.jpg);
+	background-image: url(../img/tuxBG.jpg);
 	background-attachment:fixed;
 }
 

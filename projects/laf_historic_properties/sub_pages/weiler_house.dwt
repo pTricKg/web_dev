@@ -26,7 +26,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
        <div align="center">
          <table width="1050" border="1">
            <tr>
-             <th scope="col"><span class="header"><a href="/images/lafayette/front_range.jpg"><img src="/images/lafayette/front_range.jpg" alt="front range" width="1039" height="162" align="middle" class="header" /></a></span></th>
+             <th scope="col"><span class="header"><a href="/img/lafayette/front_range.jpg"><img src="/img/lafayette/front_range.jpg" alt="front range" width="1039" height="162" align="middle" class="header" /></a></span></th>
            </tr>
            <tr>
              <td class="header"><div align="center" class="header">Weiler House</div></td>

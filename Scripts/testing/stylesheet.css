@@ -1,5 +1,5 @@
 #header-image {
-	background-image: url(../../images/simple_ptrickg_title.png);
+	background-image: url(../../img/simple_ptrickg_title.png);
 	background-color: #0F3;
     background-position: left top;
 	height: 50px;
@@ -57,6 +57,6 @@
 .background {
 	width: 100%;
 	height: 100%;
-	background-image: url(/images/tuxBG.jpg);
+	background-image: url(/img/tuxBG.jpg);
 	background-attachment:fixed;
 }

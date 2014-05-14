@@ -9,7 +9,7 @@
 	body {
 	padding: 20px;
 	background-color: #0C0;
-	background-image: url(../images/treemanbird.jpg);
+	background-image: url(../img/treemanbird.jpg);
 	text-align: center;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -133,7 +133,7 @@
 	padding-bottom: 3px;
 	padding-left: 3px;
 	text-align: center;
-	background-image: url(../images/treemanbird3.jpg);
+	background-image: url(../img/treemanbird3.jpg);
 }
 	
 	/* Miscellaneous */

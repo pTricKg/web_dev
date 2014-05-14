@@ -27,7 +27,7 @@ function MM_preloadImages() { //v3.0
 <body class="body">
 <table width="1040" border="1" align="center">
   <tr>
-    <th colspan="3" scope="col"><a href="../images/lafayette/front_range.jpg"><img src="../images/lafayette/front_range.jpg" alt="front range" width="1040" height="162" class="header" /></a></th>
+    <th colspan="3" scope="col"><a href="../img/lafayette/front_range.jpg"><img src="../img/lafayette/front_range.jpg" alt="front range" width="1040" height="162" class="header" /></a></th>
     </tr>
   <tr>
     <td colspan="3" align="center" class="header">The Historic Sites Of Lafayette</td>
@@ -38,7 +38,7 @@ function MM_preloadImages() { //v3.0
       <option value="http://www.cityoflafayette.com">City of Lafayette Website</option>
       <option value="/projects/laf_historic_properties/sub_pages/brief_history.html" selected="selected">A Brief History of Lafayette</option>
       <option value="http://www.cityoflafayette.com/flash/flashmap/map.html">Lafayette Interactive Walking Tour</option>
-      <option value="../images/lafayette/coal_mines_of_lafayette.gif">Lafayette Historical Coal Mines</option>
+      <option value="../img/lafayette/coal_mines_of_lafayette.gif">Lafayette Historical Coal Mines</option>
       <option value="/projects/laf_historic_properties/sub_pages/lafayette_historic_properties.html">Back To My Projects Page</option>
     </select></td>
     </tr>

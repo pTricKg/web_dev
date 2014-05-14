@@ -29,7 +29,7 @@ function insertZoomHTML() {
 	// ZOOM IMAGE
 	//
 	// <div id="ZoomBox">
-	//   <a href="javascript:zoomOut();"><img src="/images/menu/spacer.gif" id="ZoomImage" border="0"></a> <!-- THE IMAGE -->
+	//   <a href="javascript:zoomOut();"><img src="/img/menu/spacer.gif" id="ZoomImage" border="0"></a> <!-- THE IMAGE -->
 	//   <div id="ZoomClose">
 	//     <a href="javascript:zoomOut();"><img src="/images/closebox.png" width="30" height="30" border="0"></a>
 	//   </div>

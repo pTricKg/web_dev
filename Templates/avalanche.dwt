@@ -17,13 +17,13 @@
     <tr>
       <td align="center">
 	  <!-- TemplateBeginEditable name="icon_home" -->
-       		<a href="/projects/projects.html"><img id="icon1" src="../images/icons/home.png" alt="home"/></a>
+       		<a href="/projects/projects.html"><img id="icon1" src="../img/icons/home.png" alt="home"/></a>
 	  <!-- TemplateEndEditable --> 
-            	<a href="../projects/utahavalanches/maps.html"><img id="icon2" src="../images/icons/map.png" alt="maps" /></a>
-                <a href="../projects/utahavalanches/science.html"><img id="icon3" src="../images/icons/science.png" alt="science" /></a>
-                <a href="../projects/utahavalanches/av_links.html"><img id="icon4" src="../images/icons/links.png" alt="links" /></a>
+            	<a href="../projects/utahavalanches/maps.html"><img id="icon2" src="../img/icons/map.png" alt="maps" /></a>
+                <a href="../projects/utahavalanches/science.html"><img id="icon3" src="../img/icons/science.png" alt="science" /></a>
+                <a href="../projects/utahavalanches/av_links.html"><img id="icon4" src="../img/icons/links.png" alt="links" /></a>
 	  <!-- TemplateBeginEditable name="icon" --> 
-                <a href="../projects/utahavalanches/maps.html"><img id="icon5" src="../images/icons/next.png" alt="next" /></a>
+                <a href="../projects/utahavalanches/maps.html"><img id="icon5" src="../img/icons/next.png" alt="next" /></a>
       <!-- TemplateEndEditable -->
         <h1 id="title" align="center">Mapping Utah Avalanches</h1>
       </td>
@@ -34,7 +34,7 @@
   <tr> 
   <!-- TemplateBeginEditable name="body" -->
       <td height="461" align="center" class="updatetext" >
-    	<p><img src="../images/avalancheimages/av_inmotion_richardarmstrong_nsidc.jpg" width="350" height="436" alt="Avalanche in action." /></p>
+    	<p><img src="../img/avalancheimages/av_inmotion_richardarmstrong_nsidc.jpg" width="350" height="436" alt="Avalanche in action." /></p>
           <p>Avalanches happen. And if you travel in the backcountry, they may happen to you. And with more and more  people traveling deeper and 
           deeper into the backcountry, I wanted to look deeper into avalanche occurrences and the associated dangers posed to humans.  I was originally 
           interested in juxtaposing  avalanche variables, like slide frequency and path size, etc, to human injury  or fatality across the state of Utah. 
