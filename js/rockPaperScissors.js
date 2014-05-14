@@ -1,5 +1,7 @@
 // Rock,Paper,Scissor JavaScript Game
 
+$(window).load(function(){
+
    var toPlay = confirm("Welcome to pTricKg.com!  Work in progress so please pardon my dust.  Want to play Rock, Paper, Scissors?");
    
   
@@ -56,5 +58,5 @@
 		confirm("Thanks anyway!");
 		
 	}
-	
+	});
 
