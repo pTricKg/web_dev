@@ -51,4 +51,13 @@ alertText {
 	color: #0099ff;
 }
 
+#fourofour {
+	padding-left: 200px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.text {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+
 </style>
