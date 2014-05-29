@@ -1,16 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-<style type="text/css">
-
-.body {
-	font-family: Tahoma, Geneva, sans-serif;
-	color: #B2D0B6;
-	height: auto;
-	width: auto;
-	border: medium solid #646464;
-	background-image: url(/images/tuxBG.jpg);
-	background-attachment:fixed;
-	
+<style type="text/css">  .body {
+ font-family: Tahoma, Geneva, sans-serif;
+ color: #B2D0B6;
+ height: auto;
+ width: auto;
+ border: medium solid #646464;
+ background-image: url(/images/tuxBG.jpg);
+ background-attachment:fixed;
 }
 .footer {
 	font-family: Tahoma, Geneva, sans-serif;
@@ -23,9 +20,7 @@
 	background-image: url(/img/tuxBG.jpg);
 	background-attachment:fixed;
 }
-
-
-.links  {
+.links {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
@@ -34,23 +29,18 @@
 .body_content {
 	height: auto;
 	border: medium solid #666;
-	
 }
-
 .header {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 42px;
-	color: #434242; 
+	color: #434242;
 }
-
 .body_text {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 22px;
 	color: #434242;
 }
-
 .alertText {
 	color: #0099ff;
 }
-
-</style>
+ </style>

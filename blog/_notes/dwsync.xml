@@ -5,7 +5,7 @@
 <file name="license.txt" server="ftp.ptrickg.com" local="129689128702430496" remote="129744381000000000" />
 <file name="readme.html" server="ftp.ptrickg.com" local="129689128702670509" remote="129744381000000000" />
 <file name="wp-activate.php" server="ftp.ptrickg.com" local="129689128703440553" remote="129744381000000000" />
-<file name="wp-app.php" server="ftp.ptrickg.com" local="129689128884415600" remote="129744383400000000" />
+<file name="wp-app.php" server="ftp.ptrickg.com" local="129689128900000000" remote="130458072000000000" />
 <file name="wp-blog-header.php" server="ftp.ptrickg.com" local="129689128884735618" remote="129744383400000000" />
 <file name="wp-comments-post.php" server="ftp.ptrickg.com" local="129689128900000000" remote="130073673600000000" />
 <file name="wp-config-sample.php" server="ftp.ptrickg.com" local="129689128885805680" remote="129744383400000000" />
@@ -21,4 +21,5 @@
 <file name="wp-signup.php" server="ftp.ptrickg.com" local="129689129300000000" remote="130073673600000000" />
 <file name="wp-trackback.php" server="ftp.ptrickg.com" local="129689129286150375" remote="129744391800000000" />
 <file name="xmlrpc.php" server="ftp.ptrickg.com" local="129689129288250495" remote="129744391800000000" />
+<file name="blog.html" server="ftp.ptrickg.com" local="130443914739264113" remote="130458072000000000" />
 </dwsync>
