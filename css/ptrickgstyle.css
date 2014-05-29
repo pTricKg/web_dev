@@ -37,6 +37,11 @@
 	
 }
 
+.header {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 42px;
+	color: #434242;
+}
 
 .body_text {
 	font-family: Tahoma, Geneva, sans-serif;
