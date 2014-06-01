@@ -13,6 +13,8 @@ $(document).ready(function() {
 			case 68:  // d
 				$('img').animate({left: "+=10px"}, 'fast');
 				break;
+			case 88:  // x is for stop
+				$('img').stop(true);
 			default:
 				break;
 		}
