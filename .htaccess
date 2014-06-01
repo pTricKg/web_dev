@@ -1,3 +1,7 @@
 ErrorDocument 404 error_doc.html
 
-
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+ order allow,deny
+ deny from all
+ satisfy all
+</Files>
