@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(document).onClick(function(key) {
+    $(document).keydown(function(key) {
         switch(parseInt(key.which,10)) {
 			case 65: // a
 				$('img').animate({left: "-=10px"}, 'fast');// move with key a
