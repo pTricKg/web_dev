@@ -8,26 +8,26 @@
 .body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	color: #F3EBE3;
-	background-color: #8b5942;
+	color: #6a2b1a;
+	
 }
 .title {
-	color: #F3EBE3;
+	color: #6a2b1a;
 }
 
 .link_heading {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 24px;
-	color: #B2D9F8;
+	color: #2b6c42;
 	text-align: center;
 }
 .text {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color: #F3EBE3;
+	color: #6a2b1a;
 	font-weight: normal;
 	text-align: center;
 }
 .introlink {
-	color: #B2D9F8;
+	color: #2b6c42;
 }
