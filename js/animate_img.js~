@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(document).load(function(key) {
+    $(document).keydown(function(key) {
         switch(parseInt(key.which,10)) {
 			case 65: // a
 				$('img').animate({left: "-=10px"}, 'fast');// move with key a
@@ -13,6 +13,8 @@ $(document).ready(function() {
 			case 68:  // d
 				$('img').animate({left: "+=10px"}, 'fast');
 				break;
+			case 88:  // x is for stop
+				$('img').stop(true);
 			default:
 				break;
 		}
