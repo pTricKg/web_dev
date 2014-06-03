@@ -1,8 +1,8 @@
 .layout {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 36px;
-	background-image: url(/projects/arches_virtualfieldtrip/arches_images/arches_background.jpg);
-	background-repeat: repeat;
+	background-image: url(../img/arches/PrettyGrit1.jpg);
+	background-repeat: fixed;
 }
 
 .body {
