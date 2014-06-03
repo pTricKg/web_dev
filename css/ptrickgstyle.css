@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-<style type="text/css">  .body {
+<style type="text/css"> 
+
+.body {
  font-family: Tahoma, Geneva, sans-serif;
  color: #B2D0B6;
  height: auto;
@@ -34,6 +36,14 @@
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 42px;
 	color: #434242;
+}
+.banner {
+	padding-left: 100px;
+}
+.404 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #303030;
+	
 }
 .body_text {
 	font-family: Tahoma, Geneva, sans-serif;
