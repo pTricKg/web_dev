@@ -87,12 +87,14 @@ nav ul {
 				background-position: center;
 			}
 			nav ul li:nth-child(4) a {
+				background-image: url(../img/icons/projects.png);
 				background-color: #30672d;
-				background-position: 28px -342px;
+				background-position: center;
 			}
 			nav ul li:nth-child(5) a {
+				background-image: url(../img/icons/blog.png);
 				background-color: #1e4c1f;
-				background-position: 28px -342px;
+				background-position: center;
 			}
 		
 				nav ul li a span {
