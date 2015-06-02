@@ -57,20 +57,21 @@
 	color: #0099ff;
 }
 #head { 
-	min-width:800px; width: auto !important; width: 800px; 
+	min-width:1000px; width: auto !important; width: 1000px; 
 	}
 nav ul {
 	 white-space: nowrap; list-style: none; overflow: hidden; position: relative;
 	 
 }
 	nav ul li {
-		 float: left; margin: 0 20px 0 0; 
+		 float: left; margin: 0 5px 0 0; 
 		}
 	
 		nav ul li a {
-			display: inline-block; width: 120px; height: 60px;
+			display: block; width: 120px; height: 60px;
 			 background-repeat: no-repeat; 
 		}
+		
 			nav ul li:nth-child(1) a {
 				background-image: url(../img/icons/home-icon.png);
 				background-color: #84d982;
@@ -99,7 +100,7 @@ nav ul {
 		
 				nav ul li a span {
 					font: 30px "Dosis", sans-serif; text-transform: uppercase; 
-					position: absolute; left: 730px; top: 9px;
+					position: absolute; left: 660px; top: 9px;
 					display: none;
 				}
 					nav ul li a:hover span {
