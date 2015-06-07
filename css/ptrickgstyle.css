@@ -14,7 +14,7 @@
 .footer {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
-	color: #434242;
+	color: #0066ff;
 }
 .background {
 	width: 100%;
@@ -26,7 +26,7 @@
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	color: #434242;
+	color: #0066ff;
 }
 .body_content {
 	height: auto;
@@ -37,7 +37,7 @@
 .header {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 42px;
-	color: #434242;
+	color: #0066ff;
 }
 .banner {
 	padding-left: 100px;
@@ -53,7 +53,7 @@
 .body_text {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 22px;
-	color: #434242;
+	color: #0066ff;
 }
 .alertText {
 	color: #0099ff;
