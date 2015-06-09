@@ -87,13 +87,13 @@ include('includes/miniblog.php');
 		<? } ?>
 		<div class="clear"></div>
 	</div>
+    
 	  				<p class="body_text">Super Mario!  Click to check it!<img src="../img/mario.png" alt="Mario!" width="800" height="441" border="0" usemap="#Map1" /> </p>
 	      
                           		<p class="body_text">This is just a page of play.  Click to check it!<img src="../img/android_test_page.png" alt="android page" width="800" height="441" border="0" usemap="#Map2" /> </p>
               				<p><img src="../img/face_dots_glss.jpg" width="356" height="356" alt="dot face" /></p>
                                 	<p class="footer">©2012 Patrick Gorman</p>
-                        	</div>
-                    	<!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+                        	</div><!-- #BeginLibraryItem "/Library/Footer.lbi" -->
 	<script type="text/javascript">
       (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -104,9 +104,7 @@ include('includes/miniblog.php');
 
 		<link href="../css/ptrickgstyle.css" rel="stylesheet" type="text/css">
 
-<table align="center" width="920">
-	<tr>
-    	<th scope="col">
+
         	<div align="center" class="footer">
             	<center>
                 	<a href="http://fatcow.com/green/green-certified.bml?domain=ptrickg.com" onclick="MyWindow=window.open('http://fatcow.com/green/green-certified.bml?domain=ptrickg.com','greenCertified','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=550,height=700,left=50,top=50'); return false;">
@@ -120,7 +118,6 @@ include('includes/miniblog.php');
   								<img alt="Get it on Google Play" src="../img/en_app_rgb_wo_60.png"/>
 							</a>
                     </center>
-<table>
 
 <g:plusone href="http://ptrickg.com" annotation="inline">
 </g:plusone>
@@ -155,7 +152,7 @@ include('includes/miniblog.php');
 </p>
 
 <p align="center" class="text">
-	<span class="footer">Last Revised 06.07.15 by P.G.</span>
+	<span class="footer">Last Revised 06.15 by P.G.</span>
 </p>
 			</div>
 		</th>
