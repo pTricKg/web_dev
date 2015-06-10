@@ -60,7 +60,7 @@
 	color: #0099ff;
 }
 #header {
-	position: fixed; top: 0px; background-image:url(/img/tuxBG.jpg);
+	position: fixed; top: 0px; background-image:url(/img/tuxBG.jpg); background-attachment: fixed;
 }
 #head { 
 	min-width:1000px; width: 2000px;
