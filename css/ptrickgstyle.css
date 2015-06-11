@@ -26,18 +26,21 @@
 .links {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18px;
-	font-weight: bold;
 	color: #000000;
 }
 .body_content {
 	height: auto;
+	margin-top: 100px;
+}
+.content {
+	margin-top: 100px;
 }
 
 .header {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 42px;
 	color: #000000;
-	margin-top: 100px;
+	
 	}
 .banner {
 	padding-left: 100px;
@@ -54,9 +57,7 @@
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 22px;
 	color: #000000;
-	margin-top: 100px;
-	
-}
+	}
 .alertText {
 	color: #0099ff;
 }
