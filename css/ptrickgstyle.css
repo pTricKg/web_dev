@@ -62,23 +62,41 @@
 	color: #0099ff;
 }
 #header {
-	position: fixed; top: 0px; background-image:url(/img/tuxBG.jpg); background-attachment: fixed;
+	position: fixed; 
+	top: 0px; 
+	background-image:url(/img/tuxBG.jpg); 
+	background-attachment: fixed;
+	-webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   transform: translateZ(0);
+   z-index: 500;
+   opacity: 1;
 }
 #head { 
-	min-width:1000px; width: 2000px;
+	min-width:1000px; 
+	width: 2000px;
 	}
 
 nav ul {
-	 white-space: nowrap; list-style: none; overflow: hidden; position: relative;
+	 white-space: nowrap; 
+	 list-style: none; 
+	 overflow: hidden; 
+	 position: relative; 
+	 
 	 
 }
 	nav ul li {
-		 float: left; margin: 0 5px 0 0; 
+		 float: left;  
+		 margin: 0 5px 0 0; 
 		}
 	
 		nav ul li a {
-			display: block; width: 120px; height: 60px;
-			 background-repeat: no-repeat; 
+			display: block;  
+			width: 120px; 
+			height: 60px;
+			background-repeat: no-repeat; 
 		}
 		
 			nav ul li:nth-child(1) a {
@@ -108,8 +126,11 @@ nav ul {
 			}
 		
 				nav ul li a span {
-					font: 30px "Dosis", sans-serif; text-transform: uppercase; 
-					position: absolute; left: 660px; top: 9px;
+					font: 30px "Dosis", sans-serif; 
+					text-transform: uppercase; 
+					position: absolute; 
+					left: 660px; 
+					top: 9px;
 					display: none;
 				}
 					nav ul li a:hover span {
@@ -131,7 +152,14 @@ nav ul {
 				nav ul li:nth-child(5) a span {
 					color: #1e4c1f;
 				}
-				
+div #map-canvas {
+	width: 700px;
+	height: 400px;
+	position: relative;
+    z-index: 18;
+    top: 0;
+    left: 0;
+}
 #map-canvas {
         width: 500px;
         height: 400px;
