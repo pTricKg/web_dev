@@ -54,9 +54,7 @@ $(window).load(function(){
 	confirm("Computer chose" + " " + computerChoice + "." + " " + compare() + " " + " " + "Thanks for playing!!");	
 		
 		
-	}else {
-		confirm("Thanks anyway!");
-		
 	}
+	//else {		confirm("Thanks anyway!");	}
 	});
 
