@@ -17,10 +17,6 @@ function MM_findObj(n, d) { //v4.01
   for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
   if(!x && d.getElementById) x=d.getElementById(n); return x;
 }
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -30,7 +26,10 @@ function MM_preloadImages() { //v3.0
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
-
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
 //-->
 </script>
 
@@ -111,9 +110,7 @@ function MM_preloadImages() { //v3.0
 
 		<link href="../css/ptrickgstyle.css" rel="stylesheet" type="text/css">
 
-<table align="center" width="920">
-	<tr>
-    	<th scope="col">
+
         	<div align="center" class="footer">
             	<center>
                 	<a href="http://fatcow.com/green/green-certified.bml?domain=ptrickg.com" onclick="MyWindow=window.open('http://fatcow.com/green/green-certified.bml?domain=ptrickg.com','greenCertified','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=550,height=700,left=50,top=50'); return false;">
@@ -127,7 +124,6 @@ function MM_preloadImages() { //v3.0
   								<img alt="Get it on Google Play" src="../img/en_app_rgb_wo_60.png"/>
 							</a>
                     </center>
-<table>
 
 <g:plusone href="http://ptrickg.com" annotation="inline">
 </g:plusone>
@@ -162,7 +158,7 @@ function MM_preloadImages() { //v3.0
 </p>
 
 <p align="center" class="text">
-	<span class="footer">Last Revised 06.07.15 by P.G.</span>
+	<span class="footer">Last Revised 25.07.2015 by P.G.</span>
 </p>
 			</div>
 		</th>
