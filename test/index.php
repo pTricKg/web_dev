@@ -152,7 +152,7 @@ include('includes/miniblog.php');
 </p>
 
 <p align="center" class="text">
-	<span class="footer">Last Revised 06.15 by P.G.</span>
+	<span class="footer">Last Revised 25.07.2015 by P.G.</span>
 </p>
 			</div>
 		</th>
