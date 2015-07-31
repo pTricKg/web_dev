@@ -4,13 +4,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml"; itemscope itemtype="http://schema.org/"; xmlns:fb="http://ogp.me/ns/fb#">
 
 <head>
-
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 	    
 	<meta itemprop="name" content="Title of your content">
 	<meta itemprop="description" content="This would be a description of the content your users are sharing">
 	<meta property="fb:admins" content="100003525073637" />
 	<meta property="fb:app_id" content="370013989685522"/>
+    
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/google_map.js"></script>
+
 
 	<title>pTricKg.com</title> 
 
@@ -21,6 +24,7 @@
 </head>
 	
 <body class="background">
+
 <div id="header">
 <div id="head">
 
@@ -60,20 +64,26 @@
    
 </div>
 </div>
-
-
-
-				<div align="center" class="content">
-	  				<p class="header">Welcome to my not-so-interesting website!! </p>
-	  				<p class="body_text">Super Mario!  Click to check it!</p>
+<div align="center" class="content">
+	  				                                   
+            <p class="header">Welcome, Welcome, Welcome!!!</p>   
+   <p class="body_text">Where i'm at in the world</p>
+    <div id="map-canvas"></div>
+  
+  				<p class="body_text">Super Mario!  Click to check it!</p>
+					<p class="links">It does nothing too cool but Mario does respond to your input.</p>
                     <img src="img/mario.png" alt="Mario!" width="800" height="441" border="0" usemap="#Map1" /> 
-	      
+	      			
+
+
+
+
                           		<p class="body_text">This is just a page of play.  Click to check it! </p>
+						
                                 <img src="img/android_test_page.png" alt="android page" width="800" height="441" border="0" usemap="#Map2" />
               				<p><img src="img/face_dots_glss.jpg" width="356" height="356" alt="dot face" /></p>
                                 	<p class="footer">©2012 Patrick Gorman</p>
-                        	</div>
-                    	<!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+                        	</div><!-- #BeginLibraryItem "/Library/Footer.lbi" -->
 	<script type="text/javascript">
       (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -84,9 +94,7 @@
 
 		<link href="css/ptrickgstyle.css" rel="stylesheet" type="text/css">
 
-<table align="center" width="920">
-	<tr>
-    	<th scope="col">
+
         	<div align="center" class="footer">
             	<center>
                 	<a href="http://fatcow.com/green/green-certified.bml?domain=ptrickg.com" onclick="MyWindow=window.open('http://fatcow.com/green/green-certified.bml?domain=ptrickg.com','greenCertified','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=550,height=700,left=50,top=50'); return false;">
@@ -100,7 +108,6 @@
   								<img alt="Get it on Google Play" src="img/en_app_rgb_wo_60.png"/>
 							</a>
                     </center>
-<table>
 
 <g:plusone href="http://ptrickg.com" annotation="inline">
 </g:plusone>
@@ -135,7 +142,7 @@
 </p>
 
 <p align="center" class="text">
-	<span class="footer">Last Revised 06.07.15 by P.G.</span>
+	<span class="footer">Last Revised 2015.07.26 by P.G.</span>
 </p>
 			</div>
 		</th>
@@ -198,7 +205,7 @@ function MM_popupMsg(msg) { //v1.0
   })();
 </script>
 <map name="Map1" id="Map1">
-  <area shape="rect" coords="1,6,798,440" href="mario.html" alt="Super Mario!" />
+  <area shape="rect" coords="1,6,798,440" href="projects/mario.html" alt="Super Mario!" />
    </map>
    <map name="Map2" id="Map2">
   <area shape="rect" coords="1,6,798,440" href=projects/android.html alt="Android Page!" />
