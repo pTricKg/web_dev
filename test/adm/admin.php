@@ -44,7 +44,7 @@ if(!defined('miniblog_ID') && $mode != 'login')
 
 $header = ($mode == 'login') ? 'simple-header.php' : 'header.php';
 include($header);
-include('../../adm/index.php');	
-include('../../adm/footer.php');
+include('index.php');	
+include('footer.php');
 ob_end_flush();
 ?>

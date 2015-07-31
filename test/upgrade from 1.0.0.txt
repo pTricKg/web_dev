@@ -1,0 +1,13 @@
+********************************************************************
+	SPYKA WEBMASTER - HTTP://WWW.SPYKA.NET
+	FREE WEB TEMPLATES AND RESOURCES FOR WEBMASTERS
+********************************************************************
+
+This is a free script by spyka webmaster (http://www.spyka.net)
+
+
+SEE: http://www.spyka.net/scripts/php/miniblog for full information and documentation 
+ 
+1. Upgrade from 1.0.0
+-----------------------------------------
+To upgrade from 1.0.0 to 1.0.1 simply upload the adm/ folder, replacing the old files. No changes were made outside of this folder.
