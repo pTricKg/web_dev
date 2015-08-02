@@ -14,7 +14,12 @@
 .footer {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
-	color: #000000;
+	color: #0066ff;
+	text-shadow:
+	-0.5px -0.5px 0 #000,  
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+     0.5px 0.5px 0 #000;
 	
 }
 .background {
@@ -26,11 +31,18 @@
 .links {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18px;
-	color: #000000;
+	color: #0066ff;
+	text-shadow:
+	-0.5px -0.5px 0 #000,  
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+     0.5px 0.5px 0 #000;
+	
 }
 .body_content {
 	height: auto;
 	margin-top: 100px;
+	
 }
 .content {
 	margin-top: 100px;
@@ -39,7 +51,13 @@
 .header {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 42px;
-	color: #000000;
+	color: #0066ff;
+	text-shadow:
+	-0.5px -0.5px 0 #000,  
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+     0.5px 0.5px 0 #000;
+	
 	
 	}
 .banner {
@@ -52,11 +70,18 @@
 	color: #303030;
 	padding-right:100px;
 	
+	
 }
 .body_text {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 22px;
-	color: #000000;
+	color: #0066ff;
+	text-shadow:
+	-0.5px -0.5px 0 #000,  
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+     0.5px 0.5px 0 #000;
+	
 	}
 .alertText {
 	color: #0099ff;
