@@ -37,6 +37,7 @@
     0.5px -0.5px 0 #84d982,
     -0.5px 0.5px 0 #84d982,
      0.5px 0.5px 0 #84d982;
+	max-width: 800px;
 	
 }
 .body_content {
@@ -81,6 +82,7 @@
     0.5px -0.5px 0 #84d982,
     -0.5px 0.5px 0 #84d982,
      0.5px 0.5px 0 #84d982;
+	max-width: 800px;
 	
 	}
 .alertText {
