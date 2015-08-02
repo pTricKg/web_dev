@@ -14,12 +14,12 @@
 .footer {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
-	color: #84d982;
+	color: #000000;
 	text-shadow:
-	-0.5px -0.5px 0 #000,  
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-     0.5px 0.5px 0 #000;
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
 	
 }
 .background {
@@ -31,12 +31,12 @@
 .links {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18px;
-	color: #84d982;
+	color: #000000;
 	text-shadow:
-	-0.5px -0.5px 0 #000,  
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-     0.5px 0.5px 0 #000;
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
 	
 }
 .body_content {
@@ -51,12 +51,12 @@
 .header {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 42px;
-	color: #84d982;
+	color: #000000;
 	text-shadow:
-	-0.5px -0.5px 0 #000,  
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-     0.5px 0.5px 0 #000;
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
 	
 	
 	}
@@ -75,12 +75,12 @@
 .body_text {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 22px;
-	color: #84d982;
+	color: #000000;
 	text-shadow:
-	-0.5px -0.5px 0 #000,  
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-     0.5px 0.5px 0 #000;
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
 	
 	}
 .alertText {
