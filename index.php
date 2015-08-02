@@ -89,9 +89,7 @@ include('includes/miniblog.php');
 		<? } ?>
 		<div class="clear"></div>
 	</div> 
-   <p class="body_text">Where i'm at in the world</p>
-    <div id="map-canvas"></div>
-  
+     
   				<p class="body_text">Super Mario!  Click to check it!</p>
 					<p class="links">It does nothing too cool but Mario does respond to your input.</p>
                     <img src="img/mario.png" alt="Mario!" width="800" height="441" border="0" usemap="#Map1" /> 
