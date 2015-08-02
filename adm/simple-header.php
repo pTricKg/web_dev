@@ -7,8 +7,8 @@ if(!defined('IN_ADMIN')) exit;
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>miniblog admin - login</title>
-<link rel="stylesheet" href="../../adm/images/styles.css" type="text/css" />
-<script type="text/javascript" src="../../adm/images/dialog.js"></script>
+<link rel="stylesheet" href="images/styles.css" type="text/css" />
+<script type="text/javascript" src="images/dialog.js"></script>
 </head>
 <body>
 <div class="navigation">

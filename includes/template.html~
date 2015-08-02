@@ -3,7 +3,7 @@
 	<h4 class="body_text">$posttitle$</h4>
 	<span class="footer" align="left">$postdate$</span>
 	<p><div class="links">
-
+>>>>>>> origin/master
 		$postcontent$	
 	</div></p>
 </div>
