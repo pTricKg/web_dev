@@ -17,7 +17,7 @@ include('includes/miniblog.php');
 	<meta property="fb:admins" content="100003525073637" />
 	<meta property="fb:app_id" content="370013989685522"/>
     
-    <script type="text/javascript">
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-38102815-1']);
@@ -33,15 +33,15 @@ include('includes/miniblog.php');
 
 </script>
     
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript" src="js/google_map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="js/google_map.js"></script>
 
 
-	<title>pTricKg.com</title> 
+<title>pTricKg.com</title> 
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<link href="css/ptrickgstyle.css" rel="stylesheet" type="text/css" />
+<link href="css/ptrickgstyle.css" rel="stylesheet" type="text/css" />
 
 </head>
 	
@@ -88,38 +88,34 @@ include('includes/miniblog.php');
 </div>
 <div align="center" class="content">
 	  				                                   
-            <p class="header">Welcome, Welcome, Welcome!!!</p>  
+<p class="header">Welcome, Welcome, Welcome!!!</p>  
 
 
 <div id="blog">
-                        <?=$miniblog_posts?>
-                        </div>
-                        
-                        <div class="navigation">
-		<? if(!$single) { ?>
-			<? if($miniblog_previous) {	?> <p class="previous-link"><?=$miniblog_previous?></p>	<? } ?>
-			<? if($miniblog_next) {	?>	<p class="next-link"><?=$miniblog_next?></p> <? } ?>
-		<? } ?>
-		<? if($single) { ?>
-			<p class="previous-link"><a href="<?=$config['../miniblog-filename']?>">&laquo; return to posts</a></p>
-		<? } ?>
-		<div class="clear"></div>
-	</div> 
+	<?=$miniblog_posts?>
+</div>
+    
+<div class="navigation">
+	<? if(!$single) { ?>
+        <? if($miniblog_previous) {	?> <p class="previous-link"><?=$miniblog_previous?></p>	<? } ?>
+        <? if($miniblog_next) {	?>	<p class="next-link"><?=$miniblog_next?></p> <? } ?>
+    <? } ?>
+    <? if($single) { ?>
+        <p class="previous-link"><a href="<?=$config['../miniblog-filename']?>">&laquo; return to posts</a></p>
+    <? } ?>
+    <div class="clear"></div>
+</div> 
      
-  				<p class="body_text">Super Mario!  Click to check it!</p>
-					<p class="links">It does nothing too cool but Mario does respond to your input.</p>
-                    <img src="img/mario.png" alt="Mario!" width="800" height="441" border="0" usemap="#Map1" /> 
-	      			
+<p class="body_text">Super Mario!  Click to check it!</p>
+    <p class="links">It does nothing too cool but Mario does respond to your input.</p>
+    <img src="img/mario.png" alt="Mario!" width="800" height="441" border="0" usemap="#Map1" /> 
+	      	
+<p class="body_text">This is just a page of play.  Click to check it! </p>
+	<img src="img/android_test_page.png" alt="android page" width="800" height="441" border="0" usemap="#Map2" />
 
-
-
-
-                          		<p class="body_text">This is just a page of play.  Click to check it! </p>
-						
-                                <img src="img/android_test_page.png" alt="android page" width="800" height="441" border="0" usemap="#Map2" />
-              				<p><img src="img/face_dots_glss.jpg" width="356" height="356" alt="dot face" /></p>
-                                	<p class="footer">©2012 Patrick Gorman</p>
-                        	</div><!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+<p class="footer">©2012 Patrick Gorman</p>
+</div>
+<!-- #BeginLibraryItem "/Library/Footer.lbi" -->
 	<script type="text/javascript">
       (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -226,13 +222,15 @@ function MM_popupMsg(msg) { //v1.0
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
+
 <map name="Map1" id="Map1">
   <area shape="rect" coords="1,6,798,440" href="projects/mario.html" alt="Super Mario!" />
-   </map>
-   <map name="Map2" id="Map2">
+</map>
+<map name="Map2" id="Map2">
   <area shape="rect" coords="1,6,798,440" href=projects/android.html alt="Android Page!" />
-   </map>
-	<script>
+</map>
+	
+<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '370013989685522', // App ID
@@ -250,15 +248,17 @@ FB.Event.subscribe('comment.create',
 );// Additional initialization code here
   };
 
-  // Load the SDK Asynchronously
-  (function(d){
-     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     ref.parentNode.insertBefore(js, ref);
-   }(document));
-    </script>
-   
-	</body>
+// Load the SDK Asynchronously
+(function(d){
+ var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+ if (d.getElementById(id)) {return;}
+ js = d.createElement('script'); js.id = id; js.async = true;
+ js.src = "//connect.facebook.net/en_US/all.js";
+ ref.parentNode.insertBefore(js, ref);
+}(document));
+</script>
+    
+<script type="text/javascript">var _iv_options = { animation: 'banner', variant: 'yes-no' };</script>
+<script src="https://fightforthefuture.github.io/internet-vote-widget/widget.min.js"></script>   
+</body>
 </html>
