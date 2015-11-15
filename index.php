@@ -114,8 +114,7 @@ include('includes/miniblog.php');
 	<img src="img/android_test_page.png" alt="android page" width="800" height="441" border="0" usemap="#Map2" />
 
 <p class="footer">©2012 Patrick Gorman</p>
-</div>
-<!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+</div><!-- #BeginLibraryItem "/Library/Footer.lbi" -->
 	<script type="text/javascript">
       (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -174,7 +173,7 @@ include('includes/miniblog.php');
 </p>
 
 <p align="center" class="text">
-	<span class="footer">Last Revised 2015.10 by P.G.</span>
+	<span class="footer">Last Revised 2015.11 by P.G.</span>
 </p>
 			</div>
 		</th>
