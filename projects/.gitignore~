@@ -1,0 +1,13 @@
+.htaccess
+/blog/wp*
+/highslide
+/_notes
+/utahavalanches/highslide
+/utahavalanches/_notes
+/laf_historic_properties/_notes
+/arches_virtualfieldtrip/_notes
+/arches_virtualfieldtrip/js-global
+/arches_virtualfieldtrip/highslide
+/arches_virtualfieldtrip/delete
+
+
