@@ -106,12 +106,7 @@ include('includes/miniblog.php');
     <div class="clear"></div>
 </div> 
      
-<p class="body_text">Super Mario!  Click to check it!</p>
-    <p class="links">It does nothing too cool but Mario does respond to your input.</p>
-    <img src="img/mario.png" alt="Mario!" width="800" height="441" border="0" usemap="#Map1" /> 
-	      	
-<p class="body_text">This is just a page of play.  Click to check it! </p>
-	<img src="img/android_test_page.png" alt="android page" width="800" height="441" border="0" usemap="#Map2" />
+
 
 <p class="footer">©2012 Patrick Gorman</p>
 </div><!-- #BeginLibraryItem "/Library/Footer.lbi" -->
