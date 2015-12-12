@@ -192,5 +192,9 @@ div #map-canvas {
         height: 400px;
 		
 }
+table {
+  border-spacing: 10px;
+}
+
 					
  </style>
