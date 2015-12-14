@@ -1,0 +1,7 @@
+AddType x-mapp-php5 .php
+AddHandler x-mapp-php5 .php
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([A-Za-z0-9-]+)$ index.php?post=$1&%{QUERY_STRING}
