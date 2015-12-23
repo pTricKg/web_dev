@@ -252,7 +252,6 @@ FB.Event.subscribe('comment.create',
 }(document));
 </script>
     
-<script type="text/javascript">var _iv_options = { animation: 'banner', variant: 'yes-no' };</script>
-<script src="https://fightforthefuture.github.io/internet-vote-widget/widget.min.js"></script>   
+ 
 </body>
 </html>
