@@ -1,10 +1,13 @@
-// JavaScript Document
+// Rock,Paper,Scissor JavaScript Game
 
-   var toPlay = confirm("Welcome to pTricKg.com!  Work in progress so please pardon my dust.  Want to play Rock, Paper, Scissors?")
+$(window).load(function(){
+
+   var toPlay = confirm("Welcome to pTricKg.com!  Work in progress so please pardon my dust.  Want to play Rock, Paper, Scissors?");
    
   
-	if ( toPlay == true) {
+    if ( toPlay === true) {
 		var userChoice = prompt("Do you choose rock, paper or scissors?");
+        userChoice = userChoice.toLowerCase();
 		var computerChoice = Math.random();
 		if (computerChoice < 0.33) {
 			computerChoice = "rock";
@@ -47,15 +50,11 @@
 			}else {
 				return "Your input does not compute!  Program wins.";
 			}
-		}
+		};
 	confirm("Computer chose" + " " + computerChoice + "." + " " + compare() + " " + " " + "Thanks for playing!!");	
 		
 		
-	}else {
-		confirm("Thanks anyway!")
-		
 	}
-   
-   
-
+	//else {		confirm("Thanks anyway!");	}
+	});
 

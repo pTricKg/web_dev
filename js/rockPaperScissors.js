@@ -20,7 +20,7 @@ $(window).load(function(){
 		
 		var compare = function (user, computer) {
 			if (userChoice == computerChoice) {
-				return "User is an equal to program!";
+				return "User is an equal to the program!";
 			}else if (userChoice == "rock") {
 				if (computerChoice == "scissors") {
 					//console.log(computerChoice);
