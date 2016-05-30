@@ -127,7 +127,67 @@ nav ul {
 		}
 		
 			nav ul li:nth-child(1) a {
-				background-imag#7F7F7F
+				background-image: url(../img/icons/home-icon.png);
+				background-color: #84d982;
+				background-position: center;
+			}
+			nav ul li:nth-child(2) a {
+				background-image: url(../img/icons/about.png);
+				background-color: #6fc26e;
+				background-position: center;
+			}
+			nav ul li:nth-child(3) a {
+				background-image: url(../img/icons/link.png);
+				background-color: #5ea15d;
+				background-position: center;
+			}
+			nav ul li:nth-child(4) a {
+				background-image: url(../img/icons/projects.png);
+				background-color: #30672d;
+				background-position: center;
+			}
+			nav ul li:nth-child(5) a {
+				background-image: url(../img/icons/blog.png);
+				background-color: #1e4c1f;
+				background-position: center;
+			}
+		
+				nav ul li a span {
+					font: 30px "Dosis", sans-serif; 
+					text-transform: uppercase; 
+					position: absolute; 
+					left: 660px; 
+					top: 9px;
+					display: none;
+				}
+					nav ul li a:hover span {
+						display: block;
+					}
+				
+				nav ul li:nth-child(1) a span {
+					color: #84d982;
+				}
+				nav ul li:nth-child(2) a span {
+					color: #6fc26e;
+				}
+				nav ul li:nth-child(3) a span {
+					color: #5ea15d;
+				}
+				nav ul li:nth-child(4) a span {
+					color: #30672d;
+				}
+				nav ul li:nth-child(5) a span {
+					color: #1e4c1f;
+				}
+div #map-canvas {
+	width: 700px;
+	height: 400px;
+	position: relative;
+    z-index: 18;
+    top: 0;
+    left: 0;
+}
+#map-canvas {
         width: 500px;
         height: 400px;
 		
