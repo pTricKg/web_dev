@@ -88,7 +88,7 @@ include('includes/miniblog.php');
 </div>
 <div align="center" class="content">
 	  				                                   
-<p class="header">Welcome, Welcome, Welcome!!!</p>  
+<p class="header">What the Frak!!!</p>  
 
 
 <div id="blog">
