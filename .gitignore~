@@ -1,4 +1,6 @@
 .htaccess
+.gitignore
+/includes
 /blog/wp*
 /highslide
 /_notes
@@ -11,4 +13,7 @@
 /arches_virtualfieldtrip/delete
 /Evo3D/_notes
 scraped_nav_bar.html
+.git
+/__MACOSX
+
 

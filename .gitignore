@@ -1,4 +1,6 @@
 .htaccess
+.gitignore
+/includes
 /blog/wp*
 /highslide
 /_notes
@@ -12,5 +14,8 @@
 /Evo3D/_notes
 scraped_nav_bar.html
 .git
-
+/__MACOSX
+/adm
+*~
+install.php
 
