@@ -1,9 +1,0 @@
-<div class="post" id="post-$postid$">
-	
-	<h4 class="body_text">$posttitle$</h4>
-	<span class="footer" align="left">$postdate$</span>
-	<p><div class="links" width="800">
-
-		<div width="800">$postcontent$</div>	
-	</div></p>
-</div>
