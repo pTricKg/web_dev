@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css"> 
+
+.body {
+ font-family: Tahoma, Geneva, sans-serif;
+ color: #B2D0B6;
+ height: auto;
+ width: auto;
+ border: medium solid #646464;
+ background-image: url(/images/tuxBG.jpg);
+ background-attachment:fixed;
+}
+.footer {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	text-shadow:
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
+	
+}
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url(/img/tuxBG.jpg);
+	background-attachment:fixed;
+}
+.links {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-shadow:
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
+	
+}
+.body_content {
+	height: auto;
+	margin-top: 100px;
+	
+}
+.content {
+	margin-top: 100px;
+}
+
+.header {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 42px;
+	color: #000000;
+	text-shadow:
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
+	
+	
+	}
+.banner {
+	padding-left: 100px;
+	padding-top: 50px;
+	
+}
+.fourofour {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #303030;
+	padding-right:100px;
+	
+	
+}
+.body_text {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 22px;
+	color: #000000;
+	text-shadow:
+	-0.5px -0.5px 0 #84d982,  
+    0.5px -0.5px 0 #84d982,
+    -0.5px 0.5px 0 #84d982,
+     0.5px 0.5px 0 #84d982;
+	
+	}
+.alertText {
+	color: #0099ff;
+}
+#header {
+	position: fixed; 
+	top: 0px; 
+	background-image:url(/img/tuxBG.jpg); 
+	background-attachment: fixed;
+	-webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   transform: translateZ(0);
+   z-index: 500;
+   opacity: 1;
+}
+#head { 
+	min-width:1000px; 
+	width: 2000px;
+	}
+
+nav ul {
+	 white-space: nowrap; 
+	 list-style: none; 
+	 overflow: hidden; 
+	 position: relative; 
+	 
+	 
+}
+	nav ul li {
+		 float: left;  
+		 margin: 0 5px 0 0; 
+		}
+	
+		nav ul li a {
+			display: block;  
+			width: 120px; 
+			height: 60px;
+			background-repeat: no-repeat; 
+		}
+		
+			nav ul li:nth-child(1) a {
+				background-image: url(../img/icons/home-icon.png);
+				background-color: #84d982;
+				background-position: center;
+			}
+			nav ul li:nth-child(2) a {
+				background-image: url(../img/icons/about.png);
+				background-color: #6fc26e;
+				background-position: center;
+			}
+			nav ul li:nth-child(3) a {
+				background-image: url(../img/icons/link.png);
+				background-color: #5ea15d;
+				background-position: center;
+			}
+			nav ul li:nth-child(4) a {
+				background-image: url(../img/icons/projects.png);
+				background-color: #30672d;
+				background-position: center;
+			}
+			nav ul li:nth-child(5) a {
+				background-image: url(../img/icons/blog.png);
+				background-color: #1e4c1f;
+				background-position: center;
+			}
+		
+				nav ul li a span {
+					font: 30px "Dosis", sans-serif; 
+					text-transform: uppercase; 
+					position: absolute; 
+					left: 660px; 
+					top: 9px;
+					display: none;
+				}
+					nav ul li a:hover span {
+						display: block;
+					}
+				
+				nav ul li:nth-child(1) a span {
+					color: #84d982;
+				}
+				nav ul li:nth-child(2) a span {
+					color: #6fc26e;
+				}
+				nav ul li:nth-child(3) a span {
+					color: #5ea15d;
+				}
+				nav ul li:nth-child(4) a span {
+					color: #30672d;
+				}
+				nav ul li:nth-child(5) a span {
+					color: #1e4c1f;
+				}
+div #map-canvas {
+	width: 700px;
+	height: 400px;
+	position: relative;
+    z-index: 18;
+    top: 0;
+    left: 0;
+}
+#map-canvas {
+        width: 500px;
+        height: 400px;
+		
+}
+					
+ </style>
