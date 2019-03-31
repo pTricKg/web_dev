@@ -26,8 +26,6 @@
 
 <script type="text/javascript">
 
-/* IMPORTANT: Put script after tooltip div or 
-	 put tooltip div just before </BODY>. */
 
 var dom = (document.getElementById) ? true : false;
 var ns5 = (!document.all && dom || window.opera) ? true: false;
@@ -180,7 +178,9 @@ document.write('<div id="tipDiv" style="position:absolute; visibility:hidden; z-
 </head>
 
 <body class="layout">
+	
 <table width="780" height="809" border="0" align="center">
+	
   <tr>
     <td height="225" colspan="3" align="center"><img src="arches_images/nps_images/delicate_arch_nps.jpg" width="297" height="225" alt="Delicate Arch" /><img src="arches_images/usgs_images/landscape_arch_usgs.jpg" width="300" height="225" alt="Landscape Arch" /><img src="arches_images/nps_images/double_arch_nps.jpg" width="148" height="225" alt="Double Arch" /></td>
   </tr>
@@ -193,12 +193,17 @@ document.write('<div id="tipDiv" style="position:absolute; visibility:hidden; z-
     <td width="204" height="31" align="center" class="body"><span class="link_heading"><a href="arches_general_info.html" title="General Info Link" class="link_heading">General Info</a></span></td>
   </tr>
   <tr>
-    <td height="495" colspan="3" align="center" class="body"><p><img src="arches_images/map_images/arches_virtual_trip_map.jpg" alt="Map of Arches N.P." width="724" height="986" border="0" usemap="#Map" /> <a href="http://www.nps.gov" class="text"></a></p>
+    <td height="495" colspan="3" align="center" class="body">
+		<p>Here you can explore Arches by clicking on map markers at each arch location.  Enjoy!</p>	
+		<p><img src="arches_images/map_images/arches_virtual_trip_map.jpg" alt="Map of Arches N.P." width="724" height="986" border="0" usemap="#Map" /> <a href="http://www.nps.gov" class="text"></a></p>
       <p><a href="http://www.nps.gov" class="text">Map provided by www.nps.gov</a> <span class="text">edited by P. Gorman</span></p>
       <p><img src="arches_images/monument_valley.jpg" alt="Monument Valley from posterlover.com/wallpaper" width="775" height="221" align="middle" /></p>
     </td>
+	  
   </tr>
+	
 </table>
+	
 <!-- #BeginLibraryItem "/projects/arches_virtualfieldtrip/library/footer_arches.lbi" -->
 <link href="../../css/archesstyle.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
